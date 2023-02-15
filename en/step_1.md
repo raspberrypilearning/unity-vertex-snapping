@@ -1,59 +1,16 @@
-## Introduction
+## Vertex snapping in Unity
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+To align two objects in Unity, **vertex snapping** can be used. A vertex is a point on a 2D or 3D model, such as the corner of a cube, or a point on a pyramid.
 
-### What you will make
+To use vertex snapping, select the object to be moved, then hold down the **V** key. As the mouse is moved, it will snap to different vertices. Once you have the correct vertex selected, you can click and drag the object to a vertex on another object.
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+![two cubes being aligned by using vertices on the lower left side of each cube](images/vertex-snap-cubes.gif)
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+If more complicated objects are being aligned, then it is easier to enable a wireframe view of the objects, using the Draw Mode.
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+![two ramps shown in shaded wireframe mode with the Draw Modes menu shown](images/shaded-wireframe.png)
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+Vertices can be seen where the lines meet each other, and can be more easily selected.
 
-+ A computer or tablet capable of running Scratch 3
+![two ramps being aligned using a wirefram view and vertex snapping](images/vertex-snap-ramps.gif)
 
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
